@@ -1,0 +1,18 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Monto'
+      'submenu': [
+        {
+          'label': 'Open HTML View'
+          'command': 'monto:open-html-view'
+        },
+        {
+          'label': 'Open Text View'
+          'command': 'monto:open-text-view'
+        }
+      ]
+    ]
+  }
+]

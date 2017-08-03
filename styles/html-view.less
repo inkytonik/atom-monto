@@ -1,0 +1,35 @@
+@import "syntax-variables";
+
+.monto-html-view {
+
+  @fg: @syntax-text-color;
+  @bg: @syntax-background-color;
+
+  @fg-accent: @syntax-cursor-color;
+  @fg-strong: contrast(@bg, darken(@fg, 32%), lighten(@fg, 32%));
+  @fg-subtle: contrast(@fg, lighten(@fg, 16%), darken(@fg, 16%));
+
+  @border: contrast(@bg, lighten(@bg, 16%), darken(@bg, 16%));
+
+  @margin: 1.5em;
+
+  padding: 2em;
+  font-size: 1.2em;
+  color: @fg;
+  background-color: @bg;
+  overflow: auto;
+
+  // only show scrollbars on hover
+  .scrollbars-visible-always &::shadow {
+    .vertical-scrollbar,
+    .horizontal-scrollbar {
+      visibility: hidden;
+    }
+  }
+  .scrollbars-visible-always &:hover::shadow {
+    .vertical-scrollbar,
+    .horizontal-scrollbar {
+      visibility: visible;
+    }
+  }
+}

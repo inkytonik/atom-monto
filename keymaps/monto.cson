@@ -1,0 +1,4 @@
+'atom-workspace':
+  'alt-m f': 'monto:focus-views'
+  'alt-m h': 'monto:open-html-view'
+  'alt-m v': 'monto:open-text-view'

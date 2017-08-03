@@ -1,6 +1,6 @@
 {
   "name": "monto",
-  "description": "Monto Disintegrated Development Environment",
+  "description": "Atom support for Monto Disintegrated Development Environment",
   "version": "0.0.0",
   "author": {
     "name": "Anthony Sloane",

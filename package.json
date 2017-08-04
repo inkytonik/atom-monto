@@ -1,7 +1,7 @@
 {
   "name": "monto",
   "description": "Atom support for Monto Disintegrated Development Environment",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": {
     "name": "Anthony Sloane",
     "email": "inkytonik@gmail.com"
